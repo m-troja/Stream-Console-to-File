@@ -13,7 +13,7 @@ public class Console_To_File {
 //	When program is finished - content of the file is written to console
 
 	private static final String EXIT_TEXT = "exit";
-	private static File fileToWrite;
+	private static File fileToWrite = new File("xd.txt");
 	
 	public Console_To_File(File fileToWrite) {
 		this.fileToWrite = fileToWrite;
